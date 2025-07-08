@@ -9,7 +9,7 @@ import ShowDetails from "./shows/ShowDetails";
 
 export default function App() {
   //LN 12 CODE NEEDS THE [] TO WORK
-  const [shows, setShows] = useState(tvShows);
+  const [shows] = useState(tvShows);
   const [selectedShow, setSelectedShow] = useState()
   
   return (
