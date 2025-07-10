@@ -9,7 +9,7 @@ export default function ShowSelection( {shows, setSelectedShow} ) {
         console.log("Key:", show.name);
       return (
       <a
-        className={"show" + (show === selectedShow ? "selected" : "")}//the extra bit of + (show === selectedShow ? "selected" : "") is for the css where there is a .show.selected tag
+        className={"show"}//the extra bit of + (show === selectedShow ? "selected" : "") is for the css where there is a .show.selected tag
         key={show.name}
         onClick={() => {
           setSelectedShow(show)}}
